@@ -1,0 +1,71 @@
+
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url(https://www.coxandkings.co.uk/-/media/cox-and-kings/images/page-header-images/destinations/far-east/thailand/thailand-page-header_longtail-boat_istock_000017180230.jpg?w=1920&h=940);
+background-position-x: center;
+background-attachment: fixed;
+background-repeat: no-repeat;
+
+}
+
+header{
+
+    background-color: beige;
+    height: 66px;
+    font-style: inherit;
+}
+
+header.logo {
+    float: left;
+    margin-left: 2em;
+    height: inherit;
+    border: 1px;
+    
+}
+/* Need to fix \ Use google fonts*/
+header .logo-text {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+      
+}
+
+header ul {
+
+    float: right;
+    margin: 0px;
+    padding: 0px;
+    border: 1px;
+    list-style: none;
+}
+
+header ul li {
+
+    float: left;
+}
+
+header ul li a {
+
+    display: block;
+    padding: 21px;
+    font-size: 1.1em;
+    text-decoration: none;
+
+}
+header ul li a:hover {
+background: rgb(229, 229, 183);
+transition: 0.5s;
+
+}
+header .menu-toggle {
+display: none;
+}
+
+.container {
+
+    width: 100%;
+    min-height: 100vh;
+    padding: 5%;
+}
